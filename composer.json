@@ -1,0 +1,21 @@
+{
+  "name": "markshust/magento2-module-extrabodyclasses",
+  "description": "The Extra Body Classes module adds the website and store codes to the body class attribute.",
+  "require": {
+    "php": "^7.1",
+    "magento/framework": "^102"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MarkShust\\ExtraBodyClasses\\": ""
+    }
+  }
+}
