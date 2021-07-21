@@ -3,7 +3,8 @@
   "description": "The Extra Body Classes module adds the website and store codes to the body class attribute.",
   "require": {
     "php": "^7.1",
-    "magento/framework": "^102"
+    "magento/framework": "^102",
+    "magento/module-store": "^100|^101"
   },
   "type": "magento2-module",
   "version": "1.0.1",
